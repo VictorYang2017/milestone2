@@ -1,0 +1,31 @@
+/**** Slider ****/
+
+.content{
+    padding-top: 20px;
+}
+
+
+.mySlides{ 
+    height: 740px;
+    display: none;
+    }
+
+.picker{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.demo { 
+    width: 190px;
+    height: 190px;
+    cursor:pointer;
+    opacity: 0.7;
+    }
+
+.demo:hover{ opacity: 1;}
+
+.col { 
+    display: inline; 
+}
+

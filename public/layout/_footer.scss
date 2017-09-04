@@ -1,0 +1,122 @@
+/* Footer */
+.main-footer{
+    display:flex;
+    justify-content: space-around;
+    background-color:#f0f0f0;
+    padding:20px 0px;
+    width:96%;
+    margin:10px auto;
+}
+.main-footer--first-section{
+    display: flex;
+    align-items: center;
+    flex:2;
+    justify-content: center;
+}
+.main-footer--first-section li{
+    display: flex;
+    padding:12px 0px;
+}
+.main-footer--first-section a{
+    font-size:20px;
+    color:#7461b5;
+}
+.main-footer--first-section a:hover{
+    text-decoration:none;
+}
+.first-footer-nav{
+    display: flex;
+    padding-right:30px;
+    border-right:1px solid darkgray;
+}
+.first-footer-nav ul{
+    padding-left:0;
+}
+
+.second-footer-nav{
+    padding:27px 30px 27px 0px;
+    border-right:1px solid darkgray;
+}
+.first-footer-nav{
+    
+}
+.main-footer--second-section{
+    display: flex;
+    width:10%;
+    justify-content: center;
+    color:#7461b5;
+}
+.main-footer--second-section h3{
+    margin-bottom:0;
+    margin-top:12px;
+    font-size:22px;
+}
+.main-footer--second-section p{
+    margin:0px;
+    font-size:17px;
+}
+.contact-us-details--infomation{
+    margin-top:0px;
+}
+.main-footer--third-section{
+    display: flex;
+    flex:2;
+    justify-content: center;
+}
+
+.main-footer--first-section li{
+    list-style: none;
+}
+
+.main-footer--first-section a{
+    text-decoration: none;
+}
+
+
+ 
+/* Social media */
+.social-medias{
+    text-align: center;
+    margin-top:40px;
+}
+.social{
+    margin:0px 15px 0px 15px;
+    cursor: pointer;
+}
+.facebook{
+    border-radius: 24px;
+    height:70px;
+    width:70px;
+}
+.twitter{
+    border-radius: 26px;
+    height:70px;
+    width:70px;
+}
+.instagram{
+    border-radius: 26px;
+    height:70px;
+    width:70px;
+}
+.behance{
+    border-radius: 26px;
+    height:70px;
+    width:70px;
+}
+
+
+.don-btn{
+   border-radius: 20px;
+   font-size:25px;
+   padding:20px 30px;
+   font-weight: bold;
+   width:400px;
+   border:none;
+   background-color: #7461b5 ;
+   color:#fff;
+   box-shadow: none;
+}
+.donation-btn .don-btn:focus, .don-btn:active{
+   box-shadow: none;
+   outline:none;
+}

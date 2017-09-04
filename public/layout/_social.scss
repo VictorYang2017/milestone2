@@ -1,0 +1,46 @@
+/*** social ***/
+
+.global {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex1, .flex2 {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.global--desc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: .5s;
+}
+
+.global--desc h3{
+    position: relative;
+    left: 250px;
+    transition: .8s;
+}
+
+.flex-item:hover .gallery--desc{
+    opacity: 1;
+}
+
+.global--desc:hover h3{
+    left: 50px;
+}
+
+.flex-item:hover{ opacity: 1;}

@@ -169,17 +169,13 @@ li a:hover {
     transition: .5s;
 }
 
-.global--desc h3{
+.global--desc{
     position: relative;
     left: 250px;
     transition: .8s;
 }
 
-.flex-item:hover .gallery--desc{
-    opacity: 1;
-}
-
-.global--desc:hover h3{
+.global--desc:hover{
     left: 50px;
 }
 

@@ -1,0 +1,89 @@
+/* Course Informations(First) */
+.dip{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.dip h5{
+    margin:0;
+    font-size: 28px;
+    font-weight: bold;
+}
+.dip p{
+  margin-bottom:none;
+}
+.dip-main{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:#746eb5;
+    padding:23px 0px 20px 20px;
+    cursor: pointer;
+}
+.dip-showing{
+    display: flex;
+    cursor: pointer;
+}
+.dip-main li{
+    display: none;
+    font-size:20px;
+    line-height: 30px;
+    list-style: disc;
+    margin:0px;
+    font-weight:bold;
+    color:#746eb5;
+    padding:0;
+}
+
+.dip:hover li{
+    display: list-item;
+}
+.dip-main ul{
+    display: none;
+    font-size:20px;
+    line-height: 30px;
+    list-style: disc;
+    margin:10px;
+    font-weight:bold;
+}
+.dip:hover ul{
+    display: block;
+}
+.dip-main p{
+    margin-top:10px;
+    display: none;
+    width:70%;
+    font-size: 20px;
+    line-height: 26px;
+}
+.dip:hover p{
+    display: block;
+}
+/***************
+Utils
+****************/
+/* Course section */
+.first-dip{
+    background-image:url(https://www.828web.com/wp-content/uploads/2014/03/website-design-for-small-businesses-website-development-boone-nc-high-quality-web-design-boone-nc.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.second-dip{
+    background-image:url(http://project1designs.co.uk/wp-content/uploads/2016/04/slide1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.third-dip{
+    background-image:url(http://www.byteorigin.com/wp-content/uploads/2015/08/social-mrkt.png);
+    background-size: cover;
+    background-position: center center;
+}
+.fourth-dip{
+    background-image:url(https://www.geneseo.edu/sites/default/files/styles/banner_image_2/public/banner-imgs-sites/art-history-banner-leonaredo.jpg?itok=XlJ4ub5h);
+    background-size: cover;
+    background-position: center center;
+}
+.fifth-dip{
+    background-image:url(http://www.altstudiotuscany.com/wp-content/uploads/2014/09/photography.jpg);
+    background-size: cover;
+    background-position: center center;
+}
